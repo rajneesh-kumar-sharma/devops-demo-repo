@@ -14,7 +14,7 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
       - name: Run test
-        run: echo "This is self Build of github action code"
+        run: echo "This is self Build of github action code by Rajneesh"
  
   Test:
     runs-on: ubuntu-latest
@@ -22,7 +22,7 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
       - name: Run test
-        run: echo "This is self test of github action code"
+        run: echo "This is self test of github action code by Rajneesh"
   
   Deploy:
     runs-on: ubuntu-latest
@@ -30,5 +30,4 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
       - name: Run deploy
-        run: echo "This is Deploy of github action code"
-        
+        run: echo "This is Deploy of github action code by Rajneesh"
